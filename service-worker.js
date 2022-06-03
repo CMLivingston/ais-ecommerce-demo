@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ais-ecommerce-demo/precache-manifest.bfd5f21d526d11faaaee668c6442d3c3.js"
+  "/ais-ecommerce-demo/precache-manifest.b12dbf6c0f6f66de55d7b7625f021dab.js"
 );
 
 workbox.clientsClaim();

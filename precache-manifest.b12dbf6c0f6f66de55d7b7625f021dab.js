@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d4080aa27acc5b8b8f69",
+    "revision": "12a2b6d5dd642efafacb",
     "url": "/ais-ecommerce-demo/static/css/main.ebd73403.chunk.css"
   },
   {
-    "revision": "d4080aa27acc5b8b8f69",
-    "url": "/ais-ecommerce-demo/static/js/main.d4080aa2.chunk.js"
+    "revision": "12a2b6d5dd642efafacb",
+    "url": "/ais-ecommerce-demo/static/js/main.12a2b6d5.chunk.js"
   },
   {
     "revision": "26ccb0c19ce2957b908b",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/ais-ecommerce-demo/static/js/runtime~main.759ea99b.js"
   },
   {
-    "revision": "243083745e1dd5b7e3693a2df2492a10",
+    "revision": "107b4a5d6a430a2f0bcf1a8b950a7fd1",
     "url": "/ais-ecommerce-demo/index.html"
   }
 ];
