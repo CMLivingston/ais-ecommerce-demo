@@ -1,0 +1,106 @@
+body { font-family: Poppins, Arial, sans-serif; padding: 1em; background-color: whitesmoke;}
+
+.ais-SearchBox { margin: 1em 0; }
+
+.ais-Pagination { margin-top: 1em; margin-left: 22em;}
+
+.left-panel { float: left; width: 250px; text-align: center; margin-bottom: 5em; } /* move headings to center text-align: center; */
+
+.ais-RefinementList {text-align: center; }
+
+.right-panel { margin-left: 280px; }
+
+.ais-ClearRefinements { margin-top: 1em; }
+
+.ais-InfiniteHits-item { margin-bottom: 1em; } /* spaces each hit out slightly */
+
+.ais-Stats {text-align: right;  margin-bottom:  1em; margin-right:  1em; color:gray; font-size: 0.9em;}
+
+.ais-ClearRefinements { margin-left: 1.1em; } /* centers facet */
+
+.ais-Menu { margin-left: 2em; } /* centers facet */
+
+.ais-RefinementList { margin-left: 3em; } /* centers facet */
+
+.ais-NumericMenu { margin-left: 4.5em; } /* centers facet */
+
+.ais-RatingMenu { margin-left: 2em; } /* centers facet */
+
+.ais-PoweredBy { justify-content: center; margin: 2em; } /* centersfacet */
+
+.ais-ToggleRefinement{ margin-left:  3em; margin-top:  1em;} /* centers facet */
+
+
+.made-with-love { text-align: center; } /* centersfacet */ /* centersfacet */
+
+.hit-shipping {
+  margin-left: 1em;
+  color: goldenrod;
+}
+
+em {
+  background: cyan;
+  font-style: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00aeff;
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(to right, #8e43e7, #00aeff);
+  color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+
+
+
+.hit-text-content {
+  margin-left: 18em;
+  background: cyan;
+
+}
+
+.hit-img {
+ 
+}
+
+/* can delete */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  flex: 1;
+}
+
+.search-panel__results {
+  flex: 3;
+}
+
+.searchbox {
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
