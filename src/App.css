@@ -1,41 +1,7 @@
-body { font-family: Poppins, Arial, sans-serif; padding: 1em; background-color: whitesmoke;}
-
-.ais-SearchBox { margin: 1em 0; }
-
-.ais-Pagination { margin-top: 1em; margin-left: 22em;}
-
-.left-panel { float: left; width: 250px; text-align: center; margin-bottom: 5em; } /* move headings to center text-align: center; */
-
-.ais-RefinementList {text-align: center; }
-
-.right-panel { margin-left: 280px; }
-
-.ais-ClearRefinements { margin-top: 1em; }
-
-.ais-InfiniteHits-item { margin-bottom: 1em; } /* spaces each hit out slightly */
-
-.ais-Stats {text-align: right;  margin-bottom:  1em; margin-right:  1em; color:gray; font-size: 0.9em;}
-
-.ais-ClearRefinements { margin-left: 1.1em; } /* centers facet */
-
-.ais-Menu { margin-left: 2em; } /* centers facet */
-
-.ais-RefinementList { margin-left: 3em; } /* centers facet */
-
-.ais-NumericMenu { margin-left: 4.5em; } /* centers facet */
-
-.ais-RatingMenu { margin-left: 2em; } /* centers facet */
-
-.ais-PoweredBy { justify-content: center; margin: 2em; } /* centersfacet */
-
-.ais-ToggleRefinement{ margin-left:  3em; margin-top:  1em;} /* centers facet */
-
-
-.made-with-love { text-align: center; } /* centersfacet */ /* centersfacet */
-
-.hit-shipping {
-  margin-left: 1em;
-  color: goldenrod;
+body { 
+  font-family: Poppins, Arial, 
+  sans-serif; padding: 1em; 
+  background-color: whitesmoke;
 }
 
 em {
@@ -53,6 +19,34 @@ a:hover {
   text-decoration: underline;
 }
 
+.ais-Pagination { margin-top: 1em; margin-left: 22em;}
+
+.left-panel { float: left; width: 250px; text-align: center; margin-bottom: 5em; } /* move headings to center text-align: center; */
+
+.ais-RefinementList {text-align: center; }
+
+.right-panel { margin-left: 280px; }
+
+.ais-ClearRefinements { margin-top: 1em; }
+
+.ais-InfiniteHits-item { margin-bottom: 1em; } /* spaces each hit out slightly */
+
+.ais-Stats {text-align: right;  margin-bottom:  1em; margin-right:  1em; color:gray; font-size: 0.9em; display: inline-block;}
+
+.ais-ClearRefinements { margin-left: 1.1em; } /* centers facet */
+
+.ais-Menu { margin-left: 2em; } /* centers facet */
+
+.ais-RefinementList { margin-left: 3em; } /* centers facet */
+
+.ais-NumericMenu { margin-left: 4.5em; } /* centers facet */
+
+.ais-RatingMenu { margin-left: 2em; } /* centers facet */
+
+.ais-PoweredBy { justify-content: center; margin: 2em; } /* centers facet */
+
+.ais-ToggleRefinement{ margin-left:  3em; margin-top:  1em;} /* centers facet */
+
 .header {
   display: flex;
   align-items: center;
@@ -64,43 +58,84 @@ a:hover {
   border-radius: 12px;
 }
 
-
+.hit-shipping {
+  margin-left: 1em;
+  color: goldenrod;
+}
 
 .hit-text-content {
   margin-left: 18em;
-  background: cyan;
-
 }
 
-.hit-img {
- 
+.made-with-love { 
+  text-align: center; 
 }
 
-/* can delete */
+/* CSS for autocomplete toggle switch */
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
+.switch-group {
+  margin-top: 0.5em;
 }
 
-.search-panel {
-  display: flex;
+.stats-and-switch-group {
+  text-align: right;
 }
 
-.search-panel__filters {
-  flex: 1;
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
 }
 
-.search-panel__results {
-  flex: 3;
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
-.searchbox {
-  margin-bottom: 2rem;
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
-.pagination {
-  margin: 2rem auto;
-  text-align: center;
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
