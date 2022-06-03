@@ -1,6 +1,6 @@
-body { 
-  font-family: Poppins, Arial, 
-  sans-serif; padding: 1em; 
+body {
+  font-family: Poppins, Arial, sans-serif;
+  padding: 1em;
   background-color: whitesmoke;
 }
 
@@ -19,33 +19,80 @@ a:hover {
   text-decoration: underline;
 }
 
-.ais-Pagination { margin-top: 1em; margin-left: 22em;}
+.ais-Pagination {
+  margin-top: 1em;
+  margin-left: 22em;
+}
 
-.left-panel { float: left; width: 250px; text-align: center; margin-bottom: 5em; } /* move headings to center text-align: center; */
+.left-panel {
+  float: left;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 5em;
+}
 
-.ais-RefinementList {text-align: center; }
+/* move filter headings to center */
+.ais-RefinementList {
+  text-align: center;
+}
 
-.right-panel { margin-left: 280px; }
+.right-panel {
+  margin-left: 280px;
+}
 
-.ais-ClearRefinements { margin-top: 1em; }
+.ais-ClearRefinements {
+  margin-top: 1em;
+}
 
-.ais-InfiniteHits-item { margin-bottom: 1em; } /* spaces each hit out slightly */
+.ais-InfiniteHits-item {
+  margin-bottom: 1em;
+}
 
-.ais-Stats {text-align: right;  margin-bottom:  1em; margin-right:  1em; color:gray; font-size: 0.9em; display: inline-block;}
+/* spaces each hit out slightly vertically */
+.ais-Stats {
+  text-align: right;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  color: gray;
+  font-size: 0.9em;
+  display: inline-block;
+}
 
-.ais-ClearRefinements { margin-left: 1.1em; } /* centers facet */
+.ais-ClearRefinements {
+  margin-left: 1.1em;
+}
 
-.ais-Menu { margin-left: 2em; } /* centers facet */
+/* centers facet */
+.ais-Menu {
+  margin-left: 2em;
+}
 
-.ais-RefinementList { margin-left: 3em; } /* centers facet */
+/* centers facet */
+.ais-RefinementList {
+  margin-left: 3em;
+}
 
-.ais-NumericMenu { margin-left: 4.5em; } /* centers facet */
+/* centers facet */
+.ais-NumericMenu {
+  margin-left: 4.5em;
+}
 
-.ais-RatingMenu { margin-left: 2em; } /* centers facet */
+/* centers facet */
+.ais-RatingMenu {
+  margin-left: 2em;
+}
 
-.ais-PoweredBy { justify-content: center; margin: 2em; } /* centers facet */
+/* centers facet */
+.ais-PoweredBy {
+  justify-content: center;
+  margin: 2em;
+}
 
-.ais-ToggleRefinement{ margin-left:  3em; margin-top:  1em;} /* centers facet */
+/* centers facet */
+.ais-ToggleRefinement {
+  margin-left: 3em;
+  margin-top: 1em;
+}
 
 .header {
   display: flex;
@@ -67,12 +114,11 @@ a:hover {
   margin-left: 18em;
 }
 
-.made-with-love { 
-  text-align: center; 
+.made-with-love {
+  text-align: center;
 }
 
 /* CSS for autocomplete toggle switch */
-
 .switch-group {
   margin-top: 0.5em;
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import algoliasearch from 'algoliasearch/lite';
+import qs from 'qs';
 import {
   connectSearchBox,
   InstantSearch,
@@ -17,11 +18,11 @@ import {
   Configure,
 } from 'react-instantsearch-dom';
 import PropTypes from 'prop-types';
-import './App.css';
-import { Autocomplete } from './Autocomplete';
-import qs from 'qs';
 import { createLocalStorageRecentSearchesPlugin } from '@algolia/autocomplete-plugin-recent-searches';
 import { createQuerySuggestionsPlugin } from '@algolia/autocomplete-plugin-query-suggestions';
+import './App.css';
+import { Autocomplete } from './Autocomplete';
+
   
 const searchClient = algoliasearch(
   'SH0NKE8PPD',
@@ -212,7 +213,7 @@ function App() {
       
             <InfiniteHits hitComponent={Hit} />
             <PoweredBy />
-            <p className="made-with-love">Made with <span>&hearts;</span> by Chris Livingston</p>
+            <p className="made-with-love">Made with <span>&hearts;</span> by <a href="https://www.linkedin.com/in/chris-livingston-7a6492123/">Chris Livingston</a></p>
           </div>
         </InstantSearch>
       </div>
