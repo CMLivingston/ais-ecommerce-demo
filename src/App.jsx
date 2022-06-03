@@ -133,7 +133,7 @@ function App() {
     return (
       <div className="ais-InstantSearch">
         <header className="header">
-          <a href="https://cmlivingston.github.io"><img src="https://i.ibb.co/7YyS5tY/Full-Logo-Transparent-No-Buffer.png" alt="Full-Logo-Transparent-No-Buffer" border="0" /></a>
+          <a href="https://cmlivingston.github.io/ais-ecommerce-demo"><img src="https://i.ibb.co/7YyS5tY/Full-Logo-Transparent-No-Buffer.png" alt="Full-Logo-Transparent-No-Buffer" border="0" /></a>
         </header>
         
         <InstantSearch

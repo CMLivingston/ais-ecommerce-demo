@@ -2,7 +2,7 @@
   "name": "algobuy-ecommerce-demo",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://cmlivingston.github.io",
+  "homepage": "https://cmlivingston.github.io/ais-ecommerce-demo",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
