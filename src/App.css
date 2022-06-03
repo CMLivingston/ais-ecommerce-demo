@@ -40,6 +40,11 @@ a:hover {
   margin-left: 280px;
 }
 
+/* slims and centers the search experience in the broswer */
+.ais-InstantSearch {
+  max-width: 1260px;
+  margin: 0 auto }
+
 .ais-ClearRefinements {
   margin-top: 1em;
 }
